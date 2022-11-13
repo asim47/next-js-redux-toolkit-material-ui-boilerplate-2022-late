@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: 
+Allow: /
+Allow: /blogs
+Allow: /Individuals
+Allow: /Organizations
+Allow: /contactUs
+Allow: /blogs/*

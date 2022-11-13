@@ -1,0 +1,21 @@
+// @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600;0,700;1,500&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans;
+  //   Helvetica Neue, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  scroll-padding-top: 60px;
+}
+
+@import "mixins/Flex.scss";
+@import "./variables/Variables";
+@import "./components/Home";
